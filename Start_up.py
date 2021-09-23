@@ -1,6 +1,5 @@
 # import site
-#
-# path = r'D:\Hard-Surface-Scripts'
+# path = r'YOUR_PATH'
 # site.addsitedir(path)
 
 try:
