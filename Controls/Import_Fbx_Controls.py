@@ -54,7 +54,9 @@ class Import_Fbx(QtWidgets.QMainWindow):
         self.child_tab_vertical_layout = None
         self.scroll_area = None
         self.scrollAreaWidgetContents = None
+        self.resize_label = None
         self.grid_layout = None
+        self.resize_image_layout = None
         self.my_slider = None
         self.my_search_layout = None
         self.my_search_linedit = None
@@ -100,10 +102,17 @@ class Import_Fbx(QtWidgets.QMainWindow):
         self.my_project_child_tab()
 
         # # -- Create Slider -- #
+        self.resize_image_layout = QtWidgets.QHBoxLayout(self.centralwidgets)
+        self.resize_label = QtWidgets.QLabel()
+        self.resize_label.setText('Resize Image')
+
         self.my_slider = QtWidgets.QSlider()
         self.my_slider.setMinimum(0)
         self.my_slider.setMaximum(8)
         self.my_slider.setOrientation(PySide2.QtCore.Qt.Horizontal)
+
+        self.resize_image_layout.addWidget(self.resize_label)
+        self.resize_image_layout.addWidget(self.my_slider)
 
         # # -- Create Search Functions -- #
         self.my_search_layout = QtWidgets.QHBoxLayout(self.centralwidgets)
