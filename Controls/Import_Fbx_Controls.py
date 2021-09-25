@@ -73,8 +73,9 @@ class Import_Fbx(QtWidgets.QMainWindow):
         self.scale_image_value = {0:[0,40], 1:[50,90], 2:[80, 120], 3:[100, 140], 4:[120, 160], 
                                 5:[150, 180], 6:[170, 200], 7:[180, 210], 8:[190, 220]}
 
-        Ultilities.copy_file(SOURCE_PATH + "/Database/" + JSON_FILE,
-                            LOCAL_JSON)
+        # Ultilities.copy_file(SOURCE_PATH + "/Database/" + JSON_FILE,
+        #                     LOCAL_JSON)
+        
         self.my_ui()
         # self.current_tab_change()
         self.call_back()
