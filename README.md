@@ -1,4 +1,5 @@
 # Import_FBX_Tools
+<p>Version 1.0</p>
 <p>A simple tool allow artists to create their FBX Library</p>
 <p>Main Functions : </p>
 <p>- Help artists create thier FBX library for difference project </p>
