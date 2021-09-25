@@ -23,7 +23,7 @@ username = getpass.getuser()
 
 
 # -- FUNCION - IMPORT -- #
-from Import_Fbx_Tools.Functions import Ultilities as Ultilities
+import Import_FBX_Tools.Functions.Ultilities as Ultilities
 reload(Ultilities)
 
 SOURCE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

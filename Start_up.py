@@ -8,7 +8,7 @@ try:
 except:
     pass
 
-from Import_Fbx_Tools.Controls import Import_Fbx_Controls as Import_Fbx_Controls
+import Import_FBX_Tools.Controls.Import_Fbx_Controls as Import_Fbx_Controls
 reload(Import_Fbx_Controls)
 
 try:
