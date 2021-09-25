@@ -148,7 +148,7 @@ class Import_Fbx(QtWidgets.QMainWindow):
         # -- Add widget to main layout -- #
         self.vbox_layout.addLayout(self.my_folder_path_layout)
         self.vbox_layout.addWidget(self.project_tab)
-        self.vbox_layout.addWidget(self.my_slider)
+        self.vbox_layout.addLayout(self.resize_image_layout)
         self.vbox_layout.addLayout(self.my_search_layout)
         self.vbox_layout.addLayout(self.my_button_layout)
 
