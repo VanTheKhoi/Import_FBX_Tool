@@ -81,7 +81,7 @@ class Import_Fbx(QtWidgets.QMainWindow):
 
     def my_ui(self):
         # -- Setting window -- #
-        self.setWindowTitle("__ASSET LIBRARY__")
+        self.setWindowTitle("__FBX LIBRARY__")
         self.setMinimumHeight(500)
         self.setMinimumWidth(550)
 
